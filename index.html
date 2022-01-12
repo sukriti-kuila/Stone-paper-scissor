@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="score-box">
+            <p>Score</p>
+            <p id="comScore">Computer - 0 </p>
+            <p id="youScore">You - 0</p>
+            <p id="uWinner">Ultimate Winner - TBD </p>
+            <button onclick="document.location.reload(true)" id="re-btn">Restart</button>
+        </div>
+        <div class="output-box">
+            <p id="para"> Your Choice - None</p>
+            <p id="para1"> Computer Choice - None</p>
+            <p id="para2"> Winner of the Round - None </p>
+        </div>
+        <div class="buttons">
+            <button id="btn1" onclick="btnOne()">ROCK</button>
+            <button id="btn2" onclick="btnTwo()">PAPER</button>
+            <button id="btn3" onclick="btnThree()">SCISSOR</button>
+        </div>
+    </div>
+
+</body>
+
+<script src="logic.js"></script>
+
+</html>
